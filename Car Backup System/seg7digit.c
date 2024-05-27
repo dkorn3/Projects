@@ -1,9 +1,5 @@
 /*
- * seg7.c: Starter code for the digital interface for the 4-digit 7-segment display.
- *
- * Created by Zhao Zhang for ECE 266 labs, spring 2022.
- *
- * Note: It is revised from the 7-segment code from previous semesters.
+ * seg7.c
  */
 
 #include <stdint.h>
