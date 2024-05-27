@@ -1,12 +1,5 @@
 /*
- * lab8_main.c: Starter code for ECE 266 Lab 8, main.c, spring 2024
- * Note: In this semester, a small part of starter code is provided
- * (none was provided before).
- *
- * Lab 8: Distance Measurement
- *
- * Created by Zhao Zhang
- * Last update: 3/14/2024
+ * lab project main file
  */
 
 #include <stdint.h>
@@ -229,7 +222,6 @@ void main(void)
     Seg7Init();
     RangerInit();
     BuzzerInit();
-    //memcpy (&buzzer_play_event,&check_ranger_event, sizeof(check_ranger_event) );
 
     // Initialize the events
     EventInit(&trigger_ranger_reading_event, TriggerRangerReading);
