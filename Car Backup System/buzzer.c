@@ -1,10 +1,6 @@
 /******************************************************************************
- * Lab 4 starter code
- * ECE 266, spring 2024
- *
+
  * buzzer.c: This file contains the initialization function for the buzzer.
- *
- * Created by Zhao Zhang
  *****************************************************************************/
 
 #include "buzzer.h"
@@ -48,9 +44,7 @@ void MusicTurnOffBuzzer()
     PwmBuzzerSet(1000,0);
 }
 
-/*
- * Set color of the on-board LED by setting the intensity of the three primary colors
- */
+
 void PwmBuzzerSet(int PWMfreq, int PWMdCycle)
 {
     // Set the PWM parameters for red LED
