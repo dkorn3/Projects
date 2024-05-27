@@ -2,7 +2,7 @@
 
 	 .text
 
-
+      ;buzzer.c rewritten in assembly
 
 
 _SYSCTL_PERIPH_WTIMER0  .field   SYSCTL_PERIPH_WTIMER0
