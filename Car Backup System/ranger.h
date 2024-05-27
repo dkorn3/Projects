@@ -1,10 +1,5 @@
 /*
- * range.h: Starter code for ECE 266 Lab 8, main.c, spring 2024
- *
- * Lab 8: Distance Measurement
- *
- * Created by Zhao Zhang
- * Last update: 3/14/2024
+ * ranger.h function 
  */
 
 
@@ -21,7 +16,7 @@
 #include <driverlib/timer.h>
 #include "launchpad.h"
 
-// Initialize the ranger. Assume it is connected to Port C Pin 4, Grove jumper J16 (SIG to pin 37).
+
 // Use wide timer 0 (32-bit/64-bit).
 void RangerInit();
 
