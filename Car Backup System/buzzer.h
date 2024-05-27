@@ -1,11 +1,6 @@
 /*
  * buzzer.h: Header file for buzzer-related functions
  *
- * Lab 4 starter code
- * ECE 266, spring 2024
- *
- * Created by Zhao Zhang
- *
  */
 
 #ifndef BUZZER_H_
