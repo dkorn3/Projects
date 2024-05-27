@@ -1,12 +1,5 @@
 /*
- * range.c: Starter code for ECE 266 Lab 8, main.c, spring 2024
- *
- * Lab 8: Distance Measurement
- *
- * YOU NEED TO REVISE THE CODE IN PART 2 AND PART 3.
- *
- * Created by Zhao Zhang
- * Last update: 3/14/2024
+ * ranger.c function
  */
 
 #include "ranger.h"
@@ -39,11 +32,7 @@ volatile RangerState ranger;
 
 void RangerISR();
 
-/*
- * Initialize the ranger. It should be connected to Grove jumper J13 (SIG connected to
- * pin 40). The GPIO pin is PF2, and the time pin is T1CCP0. The timer is TIMER1 and the
- * sub-Time is A.
- */
+
 void RangerInit()
 {
     // Initial ranger state in memory
