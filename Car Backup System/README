@@ -1,0 +1,9 @@
+• Design: Developed a fully functioning car back up system utilizing Assembly and C languages
+• Peripheral Integration:
+  ∗ Distance Ranger: Calculates the distance between an object and the ranger using timer functions
+  ∗ Sound Buzzer: Configured a buzzer that gets louder and intensifies reversely proportional to the distance
+  ∗ Seg7 Display: Displays the decibel volume of the buzzer on the Seg7 display
+  ∗ Onboard LED: Programmed the onboard LED to flash with increasing intensity reversely proportional to the
+distance
+• Functionality: The system accurately calculates the distance from an object and precisely provides visual and
+audio alerts to the user
