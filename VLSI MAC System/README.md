@@ -1,9 +1,3 @@
 # VLSI MAC System
 
-## Description
-This directory contains the VLSI MAC System project files.
-
-## File List
-- README.md
-- .gitkeep
-
+Designed and simulated a full VLSI system including a standard cell library, optimized inverter chains, arithmetic units (adder and multiplier), flip-flops, registers, and a 32×32 SRAM array, analyzing delay, power, and noise margins across voltage and temperature variations
